@@ -1,3 +1,5 @@
+Project is forked from https://github.com/ympavlov/minidoro and just rebuild to work with newer versions of Android.
+
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid"
     height="80">](https://f-droid.org/packages/com.github.michaldanaj.minidoro)
 
