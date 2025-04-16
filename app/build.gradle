@@ -1,53 +1,39 @@
 apply plugin: 'com.android.application'
 
 android {
-	compileSdkVersion 26
-	buildToolsVersion "28.0.3"
+	compileSdkVersion 34
+	namespace 'com.github.michaldanaj.minidoro'
+
 	defaultConfig {
-		applicationId "com.github.ympavlov.minidoro"
+		applicationId "com.github.michaldanaj.minidoro"
 		resValue "string", "packageName", applicationId
-		//noinspection MinSdkTooLow
-		minSdkVersion 5 // on 4 would be working well removing reference on newer API is needed
-		// compromise targetSdkVersion 11 to enable good appearance and old-style menu button (because new-style button'd be hidden with app bar)
-		//noinspection ExpiredTargetSdkVersion
-		targetSdkVersion 11
+		minSdkVersion 14
+		targetSdkVersion 33
 		versionCode 114
 		versionName "1.14"
 	}
 	compileOptions {
 		sourceCompatibility JavaVersion.VERSION_1_8
 		targetCompatibility JavaVersion.VERSION_1_8
-		void
 	}
 	buildTypes {
 		debug {
 			minifyEnabled false
-			useProguard false
-			void
+
 		}
 		release {
 			minifyEnabled true
-			useProguard true
-			void
+			proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 		}
 	}
 	tasks.withType(JavaCompile) {
 		options.compilerArgs << '-Xlint:deprecation'
 	}
-	buildscript {
-		configurations.all {
-			resolutionStrategy {
-				dependencySubstitution {
-					substitute module('net.sf.proguard:proguard-gradle') with module('com.guardsquare:proguard-gradle:7.0.0')
-				}
-			}
-		}
-	}
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.12'
-    testImplementation 'org.mockito:mockito-core:4.1.0'
+	testImplementation 'junit:junit:4.12'
+	testImplementation 'org.mockito:mockito-core:4.1.0'
 }
 
 android.applicationVariants.all { variant ->
@@ -66,7 +52,6 @@ android.applicationVariants.all { variant ->
 		}
 		task.into "crx"
 
-		//noinspection GroovyAssignabilityCheck
 		task.dependsOn variant.assemble
 	}
 }

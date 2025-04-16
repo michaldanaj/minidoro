@@ -38,7 +38,7 @@
 			android:contentDescription="@string/btnStopDesc"
 			android:textColor="#F29268" />
 
-		<com.github.ympavlov.minidoro.CountDownView
+		<com.github.michaldanaj.minidoro.CountDownView
 			android:id="@+id/countdown"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"

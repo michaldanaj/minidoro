@@ -1,12 +1,12 @@
-package com.github.ympavlov.minidoro;
+package com.github.michaldanaj.minidoro;
 
 import org.junit.Test;
 
 import java.util.Observable;
 import java.util.Observer;
 
-import static com.github.ympavlov.minidoro.Stage.*;
-import static com.github.ympavlov.minidoro.TimeTicker.*;
+import static com.github.michaldanaj.minidoro.Stage.*;
+import static com.github.michaldanaj.minidoro.TimeTicker.*;
 import static org.junit.Assert.*;
 
 public class PomodoroStateTest

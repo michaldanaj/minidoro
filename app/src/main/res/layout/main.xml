@@ -33,7 +33,7 @@
 		android:textAlignment="center"
 		tools:ignore="RelativeOverlap" />
 
-	<com.github.ympavlov.minidoro.Clock
+	<com.github.michaldanaj.minidoro.Clock
 		android:id="@+id/currTime"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"

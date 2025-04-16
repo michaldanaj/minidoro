@@ -41,7 +41,7 @@
 		"formFactor": "phone",
 		"name": "Minidoro",
 		"orientation": "landscape",
-		"packageName": "com.github.ympavlov.minidoro",
+		"packageName": "com.github.michaldanaj.minidoro",
 		"resize": "reconfigure"
 	}
 }

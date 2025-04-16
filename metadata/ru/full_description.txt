@@ -34,9 +34,9 @@ Minidoro поможет вам в применений этой техники! 
 
 Установить Minidoro на Wear OS и подключите устройство на Wear OS в режиме отладки к компьютеру.
 
-После этого для Wear OS версии 2.2 (основанной на Android 9) и выше выполните команду: "adb shell cmd notification allow_listener com.github.ympavlov.minidoro/com.github.ympavlov.minidoro.dnd.DndModeServiceV21"
+После этого для Wear OS версии 2.2 (основанной на Android 9) и выше выполните команду: "adb shell cmd notification allow_listener com.github.michaldanaj.minidoro/com.github.michaldanaj.minidoro.dnd.DndModeServiceV21"
 
-Для более ранних версий Wear OS (основанных на Android 8.1 и нижу): "adb shell settings put secure enabled_notification_listeners com.google.android.wearable.app/com.google.android.clockwork.stream.NotificationCollectorService:com.github.ympavlov.minidoro/com.github.ympavlov.minidoro.dnd.DndModeServiceV21"
+Для более ранних версий Wear OS (основанных на Android 8.1 и нижу): "adb shell settings put secure enabled_notification_listeners com.google.android.wearable.app/com.google.android.clockwork.stream.NotificationCollectorService:com.github.michaldanaj.minidoro/com.github.michaldanaj.minidoro.dnd.DndModeServiceV21"
 
 
 

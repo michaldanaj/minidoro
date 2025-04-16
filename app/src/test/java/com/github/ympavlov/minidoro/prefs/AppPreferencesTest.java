@@ -1,7 +1,7 @@
-package com.github.ympavlov.minidoro.prefs;
+package com.github.michaldanaj.minidoro.prefs;
 
 import android.content.SharedPreferences;
-import com.github.ympavlov.minidoro.Stage;
+import com.github.michaldanaj.minidoro.Stage;
 import org.junit.Test;
 import org.mockito.Mockito;
 

@@ -1,5 +1,5 @@
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid"
-    height="80">](https://f-droid.org/packages/com.github.ympavlov.minidoro)
+    height="80">](https://f-droid.org/packages/com.github.michaldanaj.minidoro)
 
 Minidoro is a minimalistic Pomodoro® timer app, following Pomodoro® Technique very rigorously
 
@@ -11,9 +11,9 @@ Minidoro is gained to be simple, reliable and easy to use and run on 100% of And
 
 Also it's assumed to be colorblind friendly
 
-<img src="https://github.com/ympavlov/minidoro/blob/main/metadata/en-US/images/phoneScreenshots/1.png?raw=true" alt="phone screenshot 1" style="height: 15em;"/>
-<img src="https://github.com/ympavlov/minidoro/blob/main/metadata/en-US/images/phoneScreenshots/2.png?raw=true" alt="phone screenshot 2" style="width: 15em;"/>
-<img src="https://github.com/ympavlov/minidoro/blob/main/metadata/en-US/images/wearScreenshots/2.png?raw=true" alt="wear screenshot" style="height: 15em;"/>
+<img src="https://github.com/michaldanaj/minidoro/blob/main/metadata/en-US/images/phoneScreenshots/1.png?raw=true" alt="phone screenshot 1" style="height: 15em;"/>
+<img src="https://github.com/michaldanaj/minidoro/blob/main/metadata/en-US/images/phoneScreenshots/2.png?raw=true" alt="phone screenshot 2" style="width: 15em;"/>
+<img src="https://github.com/michaldanaj/minidoro/blob/main/metadata/en-US/images/wearScreenshots/2.png?raw=true" alt="wear screenshot" style="height: 15em;"/>
 
 # Sailfish OS/Аврора ОС port
 Exists: https://openrepos.net/content/ichthyosaurus/minidoro
@@ -31,8 +31,8 @@ It would be a great feature that Minidoro running on Wear OS turns DnD mode on b
 
 For Wear OS 2.2 (based on Android 9) and above run this:
 
-    adb shell cmd notification allow_listener com.github.ympavlov.minidoro/com.github.ympavlov.minidoro.dnd.DndModeServiceV21
+    adb shell cmd notification allow_listener com.github.michaldanaj.minidoro/com.github.michaldanaj.minidoro.dnd.DndModeServiceV21
 
 For any other Wear OS version below (based on Android 8.1 and below) use this:
 
-    adb shell settings put secure enabled_notification_listeners com.google.android.wearable.app/com.google.android.clockwork.stream.NotificationCollectorService:com.github.ympavlov.minidoro/com.github.ympavlov.minidoro.dnd.DndModeServiceV21
+    adb shell settings put secure enabled_notification_listeners com.google.android.wearable.app/com.google.android.clockwork.stream.NotificationCollectorService:com.github.michaldanaj.minidoro/com.github.michaldanaj.minidoro.dnd.DndModeServiceV21

@@ -24,4 +24,4 @@ The Minidoro application may contain links to other sites. If you click on a thi
 
 We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.
 
-All the Privacy Policy changes history is accessible at https://github.com/ympavlov/minidoro/commits/main/privacy.txt
+All the Privacy Policy changes history is accessible at https://github.com/michaldanaj/minidoro/commits/main/privacy.txt

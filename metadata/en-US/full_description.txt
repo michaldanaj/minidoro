@@ -34,9 +34,9 @@ It would be a great feature that Minidoro running on Wear OS turns DnD mode on b
 
 Install Minidoro, turn Wear OS in debug mode and connect to computer.
 
-After that for Wear OS 2.2 (based on Android 9) and above run this: "adb shell cmd notification allow_listener com.github.ympavlov.minidoro/com.github.ympavlov.minidoro.dnd.DndModeServiceV21"
+After that for Wear OS 2.2 (based on Android 9) and above run this: "adb shell cmd notification allow_listener com.github.michaldanaj.minidoro/com.github.michaldanaj.minidoro.dnd.DndModeServiceV21"
 
-For any other Wear OS version below (based on Android 8.1 and below) use this: "adb shell settings put secure enabled_notification_listeners com.google.android.wearable.app/com.google.android.clockwork.stream.NotificationCollectorService:com.github.ympavlov.minidoro/com.github.ympavlov.minidoro.dnd.DndModeServiceV21"
+For any other Wear OS version below (based on Android 8.1 and below) use this: "adb shell settings put secure enabled_notification_listeners com.google.android.wearable.app/com.google.android.clockwork.stream.NotificationCollectorService:com.github.michaldanaj.minidoro/com.github.michaldanaj.minidoro.dnd.DndModeServiceV21"
 
 
 
